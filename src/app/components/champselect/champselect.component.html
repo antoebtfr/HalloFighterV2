@@ -1,0 +1,25 @@
+<section>
+    <article>
+        <a id="back-arrow" [routerLink]="['../accueil']"> QUIT </a>
+        <div class="selectionChampVisuel">
+            <div id="selectedChamp">
+                <span id="currentChampName" style="display: block"> {{currentUser.name}} </span>
+                <img id="currentChamp">
+            </div>
+            <div id="versus"> VS </div>
+            <a [routerLink]="['../battleground']">
+                <div id="start" [hidden]="!isSelected"> START </div>
+            </a>
+            <div class="cutter">
+                <img id="rdmChamp" src="../../../assets/random.png">
+            </div>
+        </div>
+
+        <div class="selectChamp">
+            <div *ngFor="let monster of monsters" class="monster" (click)="showMonster(monster.name, monster.image)">
+                {{monster.name}}
+            </div>
+        </div>
+    </article>
+</section>
+<app-battleground [hidden]="stayHidden"></app-battleground>

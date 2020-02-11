@@ -1,0 +1,28 @@
+section{
+    background: url("../../../assets/bg.png");
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    
+    #quit{
+        position: absolute;
+        left: 5px;
+        top: 10px;
+    }
+    .select-div{
+        .select{
+            padding: 25px;
+            background-color: black;
+            border-radius: 70px;
+            border: solid 4px white;
+            font-size:2em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+
+}

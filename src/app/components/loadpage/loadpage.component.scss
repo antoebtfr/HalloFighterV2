@@ -1,0 +1,41 @@
+section {
+  background: url("../../../assets/bg.png");
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    font-family: inherit;
+
+    #img {
+      width: 600px;
+    }
+    p {
+      text-align: center;
+      color: rgba(155, 6, 6, 0.664);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      font-size: 25px;
+      text {
+        font-size: 20px;
+      }
+    }
+    #press {
+      font-size: 30px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+      }
+    }
+  }
+}

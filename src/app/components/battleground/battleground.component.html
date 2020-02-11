@@ -1,0 +1,40 @@
+<section>
+
+  <div class="lifebar">
+    <div class="currentLife" id="currentLife1"></div>
+  </div>
+  <div>
+    <p class="vs">VS</p>
+  </div>
+  <div class="lifebar">
+    <div class="currentLife" id="currentLife2"> </div>
+  </div>
+  <div id="containerPersoA">
+    <img id="persoA" [src]="playerOne">
+
+  </div>
+  <div id="containerPersoB">
+    <img id="persoB" [src]="persoB">
+
+  </div>
+
+  <div id="dialog-box">
+    <div id="dialog-IA">
+      Veuillez choisir une attaque :
+    </div>
+    <div id="attaqueChoice">
+      <ul>
+        <li class="attack" *ngFor="let attack of attacks, let i=index" (click)="atkP1(i)"> {{attack.title}} </li>
+      </ul>
+    </div>
+  </div>
+  <div id="winner" [hidden]="!isFinish">
+    LE PLAYER {{winner}} A GAGNE
+  </div>
+  <div id="modal" [hidden]="!modalIsOpen">
+    <ul>
+      <li [routerLink]="['../selectmonstre']" > Retourner à la selection de personnage </li>
+      <li [routerLink]="['']"> Quitter le jeu </li>
+    </ul>
+  </div>
+</section>
