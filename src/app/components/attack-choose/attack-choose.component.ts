@@ -12,7 +12,7 @@ import { Monster } from 'src/app/models/monster';
 
 export class AttackChooseComponent  {
 
-  monsterAttacks : Attack[];
+  monsterAttacks: Attack[];
   allMonster: Monster[] = [];
   currentMonster: Monster[] = [];
 
