@@ -1,27 +1,46 @@
-# Hallowen24H
+# HalloFighter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
+### **[HalloFigher URL](https://cranky-shirley-edcd00.netlify.com)** 
 
-## Development server
+![](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5e43cd6245fb6200089d586c/screenshot.png)
+ - THIS GAME IS OPEN-SOURCE
+ - Initial development
+ - Last Updates
+ - Next Updates
+ - Next big updates
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## THIS GAME IS OPEN-SOURCE
 
-## Code scaffolding
+If you want to join the conception and the continous development of this game, you can participate by contacting cdhbze93@gmail.com for more details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Inital development
 
-## Build
+At the beggining, this project was conceived in a rush of 24 hours at the Wild Code School - Bordeaux. It's a game coded with the framework Angular 8+ so its using HTML / CSS / TypeScript. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Initial Team
 
-## Running unit tests
+[@fuencore](https://github.com/fuencore) - [@Jeremy-lal](https://github.com/Jeremy-lal)  - [@bricebelkadi](https://github.com/bricebelkadi) - 
+[@antoebtfr](https://github.com/antoebtfr)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Last Updates 
 
-## Running end-to-end tests
+ - Deployment of the game on-line
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Next Updates
 
-## Further help
+-	Adding game sound
+-	Correction of bugs
+-	Adding two in-game characters
+-	Adding Map Choice
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## NEXT BIG UPDATES
+
+- 2P Mode available off-line
+- 2P Mode available on-line
+- Making 1P fights harder
+- Changing game play
+- Adding of buffs's system
+- Adding of timer per round
+
+
