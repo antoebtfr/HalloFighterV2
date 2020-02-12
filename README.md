@@ -2,7 +2,10 @@
 
 ### **[HalloFigher URL](https://cranky-shirley-edcd00.netlify.com)** 
 
+<<<<<<< HEAD
 ![](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5e43cd6245fb6200089d586c/screenshot.png)
+=======
+>>>>>>> 3310e4be3398ec3dfd9d2603ecf6acd493e88f7a
  - THIS GAME IS OPEN-SOURCE
  - Initial development
  - Last Updates
